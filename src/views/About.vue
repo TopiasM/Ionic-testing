@@ -2,9 +2,9 @@
   <div class="ion-page">
    <ion-content> 
       <div class="about">
-	<h1>This is an about page</h1>
-	<ion-button v-on:click="$router.push('/')">Go back to Home</ion-button>
-	<ion-button v-on:click="alertTest()" full>alert</ion-button>
+	<h1>About page</h1>
+	<ion-button v-on:click="$router.push('/')">Home</ion-button>
+	<ion-button v-on:click="alertTest()" full>Alert</ion-button>
 	<br>
 	<h6>Geo location</h6>
 	lat: {{geoLoc.latitude}}, long: {{geoLoc.longitude}}

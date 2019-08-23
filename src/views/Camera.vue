@@ -2,10 +2,9 @@
   <div class="ion-page">
    <ion-content> 
       <div class="camera">
-	<ion-button v-on:click="$router.push('/')">Go back to Home</ion-button>
+	<ion-button v-on:click="$router.push('/')">Home</ion-button>
 	<img v-bind:src="img">
-      </ion-item>
-    </div>
+      </div>
     </ion-content>
   </div>
 </template>

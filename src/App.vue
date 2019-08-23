@@ -2,7 +2,7 @@
   <div id="app">
     <ion-app>
       <ion-vue-router/>
-      <ion-button id="statusbarBtn" v-if="statusBar" v-on:click="hideStatusbar()" full>hide statusbar</ion-button>
+      <ion-button id="status-bar-btn" v-if="statusBar" v-on:click="hideStatusbar()" full>hide statusbar</ion-button>
     </ion-app>
   </div>
 </template>
@@ -20,7 +20,6 @@ export default {
   created: function() {
     Plugins.Keyboard.addListener('keyboardDidShow', function() {
       this.statusBar = true;
-      console.log("a");
     }.bind(this));
   },
   methods: {
@@ -51,6 +50,13 @@ ion-tab-bar {
   position: absolute;
   bottom: 0px;
   width: 100%;
+}
+
+#status-bar-btn {
+  width: 25%;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 8px; 
 }
 
 </style>
