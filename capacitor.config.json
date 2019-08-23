@@ -1,0 +1,8 @@
+{
+  "appId": "io.ionic.starter",
+  "appName": "vueTest",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "dist",
+  "linuxAndroidStudioPath": "/home/topias/android-studio/bin/studio.sh"
+}
